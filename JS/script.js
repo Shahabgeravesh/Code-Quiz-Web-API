@@ -1,4 +1,3 @@
-//Collaborated with Janvier Mbilizi
 
 // DOM elements
 var questionsEl = document.querySelector("#questions");
@@ -43,7 +42,7 @@ function getQuestion() {
   choicesEl.innerHTML = "";
 
   // loop over choices
-  currentQuestion.choices.forEach(function(choice, i) {
+  currentQuestion.choices.forEach(function (choice, i) {
     // create new button for each choice
     var choiceNode = document.createElement("button");
     choiceNode.setAttribute("class", "choice");
@@ -81,7 +80,7 @@ function questionClick() {
 
   // flash right/wrong feedback
   feedbackEl.setAttribute("class", "feedback");
-  setTimeout(function() {
+  setTimeout(function () {
     feedbackEl.setAttribute("class", "feedback hide");
   }, 1000);
 

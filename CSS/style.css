@@ -86,3 +86,10 @@ li {
 li:nth-child(odd) {
   background-color: #dfdae7;
 }
+
+h1{
+  display: inline;
+  display:flex;
+  justify-content: center;
+
+}

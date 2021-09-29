@@ -1,4 +1,3 @@
-//Collaborated with Janvier Mbilizi
 
 // list of all questions, choices, and answers
 var questions = [
